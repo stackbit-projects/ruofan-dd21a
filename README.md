@@ -10,7 +10,7 @@
   </a>
 </p>
 <h1 align="center">
-  
+  Gatsby Starter Apollo Netlify
 </h1>
 
 This is an easy way to start developing fullstack GraphQL apps with [Gatsby](https://github.com/gatsbyjs/gatsby) and [Apollo Server](https://github.com/apollographql/apollo-server) (powered by [Netlify functions](https://www.netlify.com/docs/functions/)).
