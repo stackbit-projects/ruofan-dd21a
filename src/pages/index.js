@@ -19,7 +19,7 @@ const IndexPage = (props) => {
     <Layout>
       <SEO title="Home" />
       <Styled.h1></Styled.h1>
-      <Styled.p> and...</Styled.p>
+      <Styled.p> </Styled.p>
       <Styled.h1>
         {data ? data.hello : loading ? "Loading..." : error && error.message}
       </Styled.h1>
