@@ -19,13 +19,7 @@ const IndexPage = (props) => {
     <Layout>
       <SEO title="Home" />
       
-      <Styled.p>
-        Aditionally, you can find Apollo Server's GraphQL Playground{" "}
-        <Styled.a href={`${props.location.origin}/.netlify/functions/graphql`}>
-          here
-        </Styled.a>
-        .
-      </Styled.p>
+      
       
       <Styled.a as={Link} to="/page-2">
         Go to page 2
