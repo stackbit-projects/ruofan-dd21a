@@ -19,8 +19,6 @@ const IndexPage = (props) => {
     <Layout>
       <SEO title="Home" />
       
-      
-      
       <Styled.a as={Link} to="/page-2">
         Go to page 2
       </Styled.a>
