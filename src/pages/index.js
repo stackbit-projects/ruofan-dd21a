@@ -18,18 +18,7 @@ const IndexPage = (props) => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Styled.h1>Hi people</Styled.h1>
-  
-      <Styled.p>Welcome.</Styled.p>
-      <Styled.p>
-        Start by checking <Styled.code>src/pages/index.js</Styled.code> to see
-        an example query using the
-        <Styled.code>useQuery</Styled.code> hook.
-      </Styled.p>
-      <Styled.p>
-        Also check <Styled.code>functions/graphql/graphql.js</Styled.code> to
-        start developing your Apollo Server.
-      </Styled.p>
+      
       <Styled.p>
         Aditionally, you can find Apollo Server's GraphQL Playground{" "}
         <Styled.a href={`${props.location.origin}/.netlify/functions/graphql`}>
